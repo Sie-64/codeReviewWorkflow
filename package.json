@@ -1,0 +1,28 @@
+{
+  "name": "code-review-workflow",
+  "version": "1.0.0",
+  "description": "多 Agent 协作的代码审查 Workflow：编码 → 审查 → 修复（Simple Workflow MVP 作业）",
+  "type": "module",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node src/index.js --requirement examples/requirements.md"
+  },
+  "keywords": [
+    "workflow",
+    "multi-agent",
+    "code-review",
+    "orchestration",
+    "llm"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.67.3"
+  }
+}
